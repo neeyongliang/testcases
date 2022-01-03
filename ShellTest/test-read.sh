@@ -4,7 +4,7 @@
 # Program:
 #	User input his first name and last name.Program shows his full name.
 #History:
-#2015/xx/xx  wikinee First release
+#2015/xx/xx  yongliang First release
 
 export PATH
 

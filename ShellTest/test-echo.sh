@@ -2,7 +2,7 @@
 # Program:
 #	This program shows "Hello World" in your screen.
 #History:
-#2015/xx/xx  wikinee First release
+#2015/xx/xx  yongliang First release
 
 export PATH
 

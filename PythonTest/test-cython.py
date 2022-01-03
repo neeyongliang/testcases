@@ -3,7 +3,7 @@
 
 """
 
-Author: wikinee
+Author: yongliang
 Command: python3 setup.py build_ext --inplace
 Dependency: cpython3
 Description: 将 python 源码文件编译成 so 文件

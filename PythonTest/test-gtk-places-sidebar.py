@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # created: 18/11/22
-# author: wikinee
+# author: yongliang
 # first relase: 16/7/11
 TITLE = "PlacesSidebar"
 DESCRIPTION = """

@@ -4,7 +4,7 @@
 # Program:
 #	This program shows "xxx" in your screen.
 #History:
-#2015/xx/xx  wikinee First release
+#2015/xx/xx  yongliang First release
 
 export PATH
 

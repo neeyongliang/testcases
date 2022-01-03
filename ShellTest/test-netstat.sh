@@ -4,7 +4,7 @@
 # Program:
 #	Using netstat and grep to detect WWW,SSH,FTP and Mail service.
 #History:
-#2015/xx/xx  wikinee First release
+#2015/xx/xx  yongliang First release
 
 export PATH
 

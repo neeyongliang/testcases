@@ -4,7 +4,7 @@
 # Program:
 #	You input you demobillization date, I calculate how many days
 #History:
-#2015/xx/xx  wikinee First release
+#2015/xx/xx  yongliang First release
 
 export PATH
 
@@ -21,10 +21,10 @@ fi
 
 declare -i date_dem=`date --date="$date2" +%s`    # 退伍日期秒数
 declare -i date_now=`date +%s`                    # 现在日期秒数
-declare -i date_total_s=$(($date_dem-$date_now))  
+declare -i date_total_s=$(($date_dem-$date_now))
 declare -i date_d=$(($date_total_s/60/60/24))
 
-if [ "$date_total_s" -lt "0" ]; then 
+if [ "$date_total_s" -lt "0" ]; then
 	echo "You had been demobilization before: "$((-1*$date_d))" ago."
 else
 	declare -i date_h=$(($(($date_total_s-$date_d*60*60*24))/60/60))

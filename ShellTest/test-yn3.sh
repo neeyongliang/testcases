@@ -4,20 +4,20 @@
 # Program:
 #	This program shows user's chioce
 #History:
-#2015/xx/xx  wikinee First release
+#2015/xx/xx  yongliang First release
 
 export PATH
 
 read -p "Please input (Y/N):" yn
 
 if [ "$yn" == "Y" ]||[ "$yn" == "y" ] ;then
-		echo "OK,continue" 
+		echo "OK,continue"
 
 elif [ "$yn" == "N" ]||[ "$yn" == "n" ] ;then
 	echo "OH,interruput"
 
 else
-echo "I don't know what you chioce is" 
+echo "I don't know what you chioce is"
 fi
 
 

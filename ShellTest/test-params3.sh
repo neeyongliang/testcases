@@ -4,7 +4,7 @@
 # Program:
 #	This program check $1 equal hello
 #History:
-#2015/xx/xx  wikinee First release
+#2015/xx/xx  yongliang First release
 
 export PATH
 
@@ -12,6 +12,6 @@ if [ "$1" == "hello" ]; then
 	echo "Hello,how are you?"
 elif [ "$1" == "" ]; then
 	echo "You MUST input parameters,ex >('$0 someword')"
-else 
+else
 	echo "You only parameter is 'hello',ex> ($0 hello)"
 fi

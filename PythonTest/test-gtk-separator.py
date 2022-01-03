@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # created: 19/01/15
-# author: wikinee
+# author: yongliang
 # first relase: 19/01/15
 TITLE = "Separator"
 DESCRIPTION = """
