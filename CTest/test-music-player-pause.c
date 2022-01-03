@@ -8,7 +8,7 @@
 #define MEDIA_PLAYER_OBJECT_PATH "/org/mpris/MediaPlayer2"
 #define MEDIA_PLAYER_INTERFACE "org.mpris.MediaPlayer2.Player"
 
-/* add by wikinee, pause media player before suspend */
+/* add by yongliang, pause media player before suspend */
 static void
 pause_play_switch (const gchar *media_player_name,
                    const gchar *media_player_bus_name,

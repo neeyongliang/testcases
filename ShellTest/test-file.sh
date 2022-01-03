@@ -5,12 +5,12 @@
 #    User input filename,program will check the flowing:
 #	1.) exist ? 2.) file/directory ? 3.) file permissions
 #History:
-#2015/xx/xx  wikinee First release
+#2015/xx/xx  yongliang First release
 
 export PATH
 
-#1.判断输入是否有字符串 
-echo -e "Please input a filename, I will check the filename's type and permissions.\n\n" 
+#1.判断输入是否有字符串
+echo -e "Please input a filename, I will check the filename's type and permissions.\n\n"
 read -p "Input a filename :" filename
 
 test -z $filename && echo "You MUST input a filename." && exit 0
@@ -20,7 +20,7 @@ echo $filename
 
 
 #2.判断文件名是否存在
-test ! -e $filename && echo "True" 
+test ! -e $filename && echo "True"
 #echo "The file name '$filename' DO NOT exist" && exit 0
 
 #3.判断文件属性
